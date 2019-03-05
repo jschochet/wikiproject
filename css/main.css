@@ -1,20 +1,7 @@
 html {
   font: 100%/1.15 serif; /* 1./2. */
   -webkit-text-size-adjust: 100%; /* 3. */
-}
-
-ul {
-  margin: 0;
-  padding: 0
-}
-
-.unite-header {
-  color: black;
-}
-
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  background-image: linear-gradient(to right, #FF7F50,  #FAFAD2);
 }
 
 .wsite-menu-item {
@@ -24,6 +11,8 @@ body {
 
 .menu-item {
   position: relative;
+  margin: auto;
+  width: 100%;
 }
 
 .nav {
@@ -50,6 +39,25 @@ body {
   text-decoration: none;
 }
 
+ul {
+  margin: 0;
+  padding: 0
+}
+
+main {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  max-width: 48rem;
+  text-align: center;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 25px;
+  padding: 1em;
+  border: .3em;
+}
+
 image {
   display: inline;
 }
@@ -60,14 +68,6 @@ top: 0;
 width: 100%;
 overflow: hide;
 */
-/*content {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 100px;
-  margin-top: 20px;
-  overflow: auto;
-  width: 80%;
-}*/
 
 /*footer {
   position: fixed;
