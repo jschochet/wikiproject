@@ -54,7 +54,12 @@ main {
   background-color: white;
   border-radius: 25px;
   padding: 1em;
-  border: .3em;
+  border: .2em;
+}
+
+p {
+  margin-top: 1.5em
+
 }
 
 img {
