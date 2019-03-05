@@ -29,6 +29,8 @@ body {
 .nav {
   text-align: center;
   height: 100px;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .nav li {
@@ -88,20 +90,6 @@ overflow: hide;
   padding: 0.25em 0.625em;
 }*/
 
-.bread {
-  float: right;
-  max-width: 100%;
-  padding: 0px;
-  width: auto;
-  height: auto
-}
-
-.container {
-  max-width: 40%;
-  padding: 0px;
-  width: auto;
-  height: auto
-}
 
 /*body {
   font-family: Georgia, "Times New Roman", serif;
