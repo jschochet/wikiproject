@@ -50,6 +50,9 @@ body {
   text-decoration: none;
 }
 
+image {
+  display: inline;
+}
 
 /*background-image: linear-gradient(to right, #FF7F50,  #FAFAD2);
 position: top;
