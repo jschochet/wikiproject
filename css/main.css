@@ -15,7 +15,9 @@ a {
 }
 
 h1,h2,h3 {
-    padding-bottom: 2px;
+    padding-bottom: 1px;
+    text-align: center;
+    margin-bottom: 5px
 }
 
 p {
@@ -31,6 +33,10 @@ p {
   position: relative;
   margin: auto;
   width: 100%;
+}
+
+.column-1 {
+  margin-top: 10em
 }
 
 .container-fluid {
