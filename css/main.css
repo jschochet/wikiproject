@@ -15,7 +15,7 @@ a {
 }
 
 h1,h2,h3 {
-    padding-bottom: 20px;
+    padding-bottom: 2px;
 }
 
 p {
@@ -154,6 +154,8 @@ img {
   padding: 0px;
   width: auto;
   height: auto;
+  border-radius: 25px;
+
 }
 
 /*background-image: linear-gradient(to right, #FF7F50,  #FAFAD2);
