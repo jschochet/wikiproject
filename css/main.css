@@ -87,17 +87,18 @@ p {
 }*/
 
 #navbar {
-    color: #fff;
     overflow: auto;
 }
 
 #navbar a {
-    color:#fff;
+  color: black;
 }
 
 #navbar ul {
     list-style: none;
     float: center;
+    text-transform: uppercase;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #navbar ul li {
@@ -107,6 +108,9 @@ p {
 #navbar ul li a {
     display:block;
     padding: 15px;
+    margin-left: 2px;
+    margin-bottom: 15px;
+    font-size: 17px;
     text-align: center;
 }
 
@@ -114,22 +118,13 @@ p {
 #navbar ul li a:hover,
 #navbar ul li a.current{
     color: white;
-    background: red;
+    background: #FF6347;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 ul {
   margin: 0;
   padding: 0
-}
-
-#showcase .showcase-content h1{
-    font-size: 60px;
-    line-height: 1.2em;
-}
-
-#showcase .showcase-content p{
-    padding-bottom: 20px;
-    line-height: 1.7em;
 }
 
 h1 {
@@ -139,7 +134,7 @@ h1 {
 main {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  max-width: 48rem;
+  max-width: 200rem;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
