@@ -121,7 +121,7 @@ p {
     margin-bottom: 15px;
     background-color: #0b152e;
     height: 70px;
-    font-size: 16px;
+    font-size: 17px;
     text-align: left;
 }
 
@@ -140,6 +140,7 @@ p {
 #navbar1 {
     overflow: auto;
     height: 100px;
+    text-align: left;
     display: block;
     background-color: #263a79;
 }
@@ -150,6 +151,7 @@ p {
   text-transform: uppercase;
   font-family: Arial,"Helvetica Neue", Helvetica, sans-serif;
   font-weight: bold;
+  font-size: 34px
 }
 
 .slicedbread1 {
