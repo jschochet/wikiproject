@@ -7,7 +7,6 @@
 html {
   font: 100%/1.15 serif; /* 1./2. */
   -webkit-text-size-adjust: 100%; /* 3. */
-  background-image: linear-gradient(to right, #FF7F50,  #FAFAD2);
 }
 
 a {
@@ -94,17 +93,21 @@ p {
 
 #navbar {
     overflow: auto;
+    display: block;
+    height: 100px;
+    display: table-cell;
 }
 
 #navbar a {
-  color: black;
+  color: white;
 }
 
 #navbar ul {
     list-style: none;
-    float: center;
+    float: left;
     text-transform: uppercase;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Arial,"Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 #navbar ul li {
@@ -116,8 +119,10 @@ p {
     padding: 15px;
     margin-left: 2px;
     margin-bottom: 15px;
-    font-size: 17px;
-    text-align: center;
+    background-color: #0b152e;
+    height: 70px;
+    font-size: 16px;
+    text-align: left;
 }
 
 /*focus is for desktop*/
@@ -126,9 +131,32 @@ p {
 #navbar ul li a:hover,
 #navbar ul li a.current,
 #navbar ul li a.active{
-    color: white;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #a4b4d6;
+    font-family: Arial,"Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
     text-decoration: none;
+}
+
+#navbar1 {
+    overflow: auto;
+    height: 100px;
+    display: block;
+    background-color: #263a79;
+}
+
+#navbar1 ul {
+  list-style: none;
+  float: left;
+  text-transform: uppercase;
+  font-family: Arial,"Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.slicedbread1 {
+  color: white;
+}
+.slicedbread2 {
+  color: #a4b4d6;
 }
 
 ul {
