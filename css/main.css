@@ -161,6 +161,15 @@ p {
   color: #a4b4d6;
 }
 
+#navbar2 {
+    overflow: auto;
+    height: 100px;
+    text-align: left;
+    display: block;
+    background-image: 
+}
+
+
 ul {
   margin: 0;
   padding: 0
