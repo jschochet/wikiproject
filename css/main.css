@@ -6,20 +6,29 @@ html {
 }
 
 img {
-  width: auto;
-  max-width: 100%;
-  height: auto;
+  width: 800px;
+  height: 800px;
 }
 
-.main {
-  height: 10px;
-  width: 30px;
-}
 
 #navbar {
-  padding: 1em 0;
+  display: flex;
+  width: 80vw;
+  top: 0;
+  justify-content: space-between;
+  z-index: 1;
+  padding: 1rem;
   text-transform: uppercase;
-  display: inline-block;
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#navbar ul li {
+  margin-right: 1.5em;
 }
 
 #navbar ul li a:hover,
@@ -29,9 +38,7 @@ img {
     font-family: Arial,"Helvetica Neue", Helvetica, sans-serif;
     font-weight: bold;
     text-decoration: none;
-    size: 17px;
 }
-
 
 @media (min-width: 48em) {
 }
@@ -47,20 +54,24 @@ img {
   color: #87cdb1
 }
 
+.flex-container {
+  display: flex;
+  width: 80vw;
+}
 
-.sidebar {
+aside {
   height: 100%;
-  width: 350px;
+  width: 20vw;
   background-color: #6ac5af;
   padding: 1rem;
-  color:inherit;
+  color: inherit;
   position: fixed;
   z-index: 1;
   top: 0;
   right: 0;
-  overflow-x: hidden;
-  padding-top: 85px;
-  font-size: 18px;
+  overflow: hidden;
+  padding-top: 10px;
+  font-size: 17px;
 }
 
 .bold {
