@@ -6,8 +6,11 @@ html {
 }
 
 img {
-  width: 800px;
-  height: 800px;
+  width: 70%;
+  height: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -41,6 +44,10 @@ img {
 }
 
 @media (min-width: 48em) {
+}
+
+#banner {
+  text-align: center;
 }
 
 #banner h1, span {
