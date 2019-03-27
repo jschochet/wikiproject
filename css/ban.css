@@ -16,8 +16,8 @@ img {
 
 
 #banner p {
-  margin-left: 45px;
-  margin-right: 50px;
+  margin-left: 60px;
+  margin-right: 70px;
 }
 
 
@@ -158,6 +158,10 @@ aside {
       font-weight: bold;
     }
 
+    #banner span {
+      font-size: 26px;
+      font-weight: bold;
+    }
 }
 
 @media  (max-width: 675px) {
@@ -176,7 +180,7 @@ aside {
     padding-bottom: 1px;
   }
 
-  #banner h1 {
+  #banner h1, span {
     font-size: 20px;
     font-weight: bold;
   }
@@ -203,7 +207,7 @@ aside {
     padding-bottom: 1px;
   }
 
-  #banner h1 {
+  #banner h1, span {
     font-size: 24px;
     font-weight: bold;
     text-align: center;
