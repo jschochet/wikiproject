@@ -84,11 +84,12 @@ img {
 }
 
 .facts {
-  padding-left: 105px;
+  padding-left: 6rem;
 }
 
-.facts ul li {
-  margin-bottom: 1.2em;
+.facts li {
+  margin-bottom: 1.3em;
+  margin-right: 5rem;
 }
 
 
