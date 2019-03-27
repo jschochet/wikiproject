@@ -87,7 +87,9 @@ img {
   padding-left: 105px;
 }
 
-
+.facts ul li {
+  margin-bottom: 1.2em;
+}
 
 
 .flex-container {
