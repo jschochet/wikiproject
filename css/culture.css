@@ -152,6 +152,11 @@ aside {
       font-size: 25px;
     }
 
+    #banner span {
+      font-size: 26px;
+      font-weight: bold;
+    }
+
 }
 
 @media  (max-width: 675px) {
