@@ -149,6 +149,11 @@ aside {
     font-size: 18px;
     padding-bottom: 30px;
   }
+
+  #banner span {
+    font-size: 26px;
+    font-weight: bold;
+  }
 }
 /*
 html {
