@@ -15,8 +15,22 @@ img {
 
 
 #banner p {
-  margin-left: 60px;
-  margin-right: 75px;
+  margin-left: 80px;
+  margin-right: 95px;
+  text-align: justify;
+}
+
+.facts {
+  margin-left: 10px;
+  margin-right: 15px;
+  text-align: justify;
+}
+
+.facts li {
+  padding-top: 2em;
+  margin-left: 20px;
+  margin-right: 25px;
+  text-align: justify;
 }
 
 
@@ -120,6 +134,17 @@ aside {
     text-align: center;
     margin-left: 50px;
   }
+
+  #banner p {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+  }
+
+  #banner span {
+    font-size: 24px;
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 500px){
@@ -148,13 +173,31 @@ aside {
       text-align: center;
     }
 
-    #banner h1 {
+    #banner h1, span {
       font-size: 25px;
+    }
+
+    .facts {
+      margin-left: 10px;
+      margin-right: 15px;
+      text-align: justify;
+    }
+
+    .facts li {
+      padding-top: 2em;
+      margin-left: 20px;
+      margin-right: 25px;
+      text-align: justify;
     }
 
 }
 
 @media  (max-width: 675px) {
+
+  #banner h1, span {
+    font-size: 25px;
+  }
+
   #navbar {
     width: 100vw;
     text-align: center;
@@ -168,5 +211,18 @@ aside {
   .bold {
     font-size: 18px;
     padding-bottom: 1px;
+  }
+
+  .facts {
+    margin-left: 10px;
+    margin-right: 15px;
+    text-align: justify;
+  }
+
+  .facts li {
+    padding-top: 2em;
+    margin-left: 20px;
+    margin-right: 25px;
+    text-align: justify;
   }
 }

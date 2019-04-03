@@ -3,6 +3,18 @@ html {
   background-color: white
 }
 
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 img {
   display: block;
   max-width: 70%;
@@ -13,10 +25,10 @@ img {
   margin-bottom: 25px;
 }
 
-
 #banner p {
   margin-left: 45px;
-  margin-right: 50px;
+  margin-right: 70px;
+  text-align: justify;
 }
 
 
@@ -119,6 +131,11 @@ aside {
     width: 100vw;
     text-align: center;
     margin-left: 50px;
+  }
+
+  .column p {
+    font-size: 12px;
+    text-align: justify;
   }
 }
 
