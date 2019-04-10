@@ -135,10 +135,20 @@ aside {
     margin-left: 50px;
   }
 
+  .facts {
+    font-size: 13px;
+
+  }
+
   #banner p {
     margin-left: 20px;
-    margin-right: 20px;
-    font-size: 15px;
+    margin-right: 35px;
+    font-size: 13px;
+  }
+
+  #banner h1 {
+    text-align: center;
+    margin-right: 11px;
   }
 
   #banner span {
