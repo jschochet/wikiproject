@@ -17,20 +17,17 @@ img {
 #banner p {
   margin-left: 80px;
   margin-right: 95px;
-  text-align: justify;
 }
 
 .facts {
   margin-left: 10px;
   margin-right: 15px;
-  text-align: justify;
 }
 
 .facts li {
   padding-top: 2em;
   margin-left: 20px;
   margin-right: 25px;
-  text-align: justify;
 }
 
 
@@ -190,14 +187,12 @@ aside {
     .facts {
       margin-left: 10px;
       margin-right: 15px;
-      text-align: justify;
     }
 
     .facts li {
       padding-top: 2em;
       margin-left: 20px;
       margin-right: 25px;
-      text-align: justify;
     }
 
 }
@@ -208,8 +203,16 @@ aside {
     font-size: 25px;
   }
 
+  #banner h1 {
+    margin-right: 15px;
+  }
+
+  #banner span {
+    margin-right: 10px;
+  }
+
   #banner p {
-    margin-left: 25px;
+    margin-left: 35px;
     margin-right: 45px;
   }
 
@@ -226,14 +229,12 @@ aside {
   .facts {
     margin-left: 10px;
     margin-right: 15px;
-    text-align: justify;
   }
 
   .facts li {
     padding-top: 2em;
     margin-left: 20px;
     margin-right: 35px;
-    text-align: justify;
   }
 
   .bold {
