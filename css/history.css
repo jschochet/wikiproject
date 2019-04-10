@@ -208,6 +208,11 @@ aside {
     font-size: 25px;
   }
 
+  #banner p {
+    margin-left: 25px;
+    margin-right: 45px;
+  }
+
   #navbar {
     width: 100vw;
     text-align: center;
@@ -216,11 +221,6 @@ aside {
   #navbar ul li {
     flex-basis: 100%;
     margin-right: 150px;
-  }
-
-  .bold {
-    font-size: 18px;
-    padding-bottom: 1px;
   }
 
   .facts {
@@ -235,4 +235,12 @@ aside {
     margin-right: 35px;
     text-align: justify;
   }
-}
+
+  .bold {
+    font-size: 15px;
+  }
+
+    aside p {
+      font-size: 10.5px;
+    }
+  }
