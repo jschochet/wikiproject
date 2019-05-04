@@ -63,7 +63,6 @@ img {
 #navbar ul li{
   flex: 1;
   color: inherit;
-  padding-right: 2rem;
 }
 
 #navbar li {
@@ -150,7 +149,6 @@ aside {
 
   #navbar ul {
     display: flex;
-    
     list-style: none;
     margin: 0;
 
