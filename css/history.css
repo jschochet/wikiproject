@@ -1,3 +1,5 @@
+/* #region OLD GOOD */
+
 html {
   -webkit-text-size-adjust: 100%;
   background-color: white
@@ -32,7 +34,7 @@ img {
 
 
 #navbar {
-  /* display: flex; */
+  display: flex;
   font-family: Arial,"Helvetica Neue", Helvetica, sans-serif;
   font-size: 14px;
   font-weight: bold;
@@ -50,13 +52,18 @@ img {
 #navbar ul {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
   align-items: center;
   list-style: none;
+  text-align: center;
+  justify-content: space-between;
+ 
 }
 
 #navbar ul li{
   flex: 1;
   color: inherit;
+  padding-right: 2rem;
 }
 
 #navbar li {
@@ -119,129 +126,78 @@ aside {
   padding-bottom: 1px;
 }
 
-@media (max-width: 480px){
+/* #endregion */
+
+
+@media (max-width: 812px){
+  aside{
+    margin-top: 2.5rem;
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+
+  .flex-container {
+    display: block;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+
+
+  #navbar ul {
+    display: flex;
+    
+    list-style: none;
+    margin: 0;
+
+  }
+
+
 
   #navbar ul li {
+   
+    margin: auto;
     flex-basis: 100%;
     border: #6ac5af dotted 1px;
-  }
-
-  #navbar {
-    width: 100vw;
-    text-align: center;
-    margin-left: 50px;
-  }
-
-  .facts {
-    font-size: 13px;
-
+    align-content: center;
+    margin-right: 2rem;
+  
   }
 
   #banner p {
-    margin-left: 20px;
-    margin-right: 35px;
-    font-size: 13px;
-  }
-
-  #banner h1 {
-    text-align: center;
-    margin-right: 11px;
-  }
-
-  #banner span {
-    font-size: 24px;
-    flex-wrap: wrap;
-  }
-}
-
-@media (max-width: 500px){
-
-    aside {
-      display:none;
-    }
-
-    .flex-container{
-      width: 100vw;
-      text-align: center;
-    }
-
-    #navbar {
-      width: 100vw;
-      text-align: center;
-    }
-
-    #navbar ul li {
-      flex-basis: 100%;
-      border: #6ac5af dotted 1px;
-      margin-right: 25px;
-    }
-
-    #banner {
-      text-align: center;
-    }
-
-    #banner h1, span {
-      font-size: 25px;
-    }
-
-    .facts {
-      margin-left: 10px;
-      margin-right: 15px;
-    }
-
-    .facts li {
-      padding-top: 2em;
-      margin-left: 20px;
-      margin-right: 25px;
-    }
-
-}
-
-@media  (max-width: 675px) {
-
-  #banner h1, span {
-    font-size: 25px;
-  }
-
-  #banner h1 {
-    margin-right: 15px;
-  }
-
-  #banner span {
-    margin-right: 10px;
-  }
-
-  #banner p {
-    margin-left: 35px;
-    margin-right: 45px;
+    padding: 0;
+    margin: 2rem;
   }
 
   #navbar {
-    width: 100vw;
+    display: block;
+    width: 100%;
+    margin: auto;
     text-align: center;
+    justify-content: center;
+    justify-items: center;
   }
 
-  #navbar ul li {
-    flex-basis: 100%;
-    margin-right: 150px;
+
+
+  #banner span{
+    font-size: 2.5rem;
   }
 
-  .facts {
-    margin-left: 10px;
-    margin-right: 15px;
+  img {
+    display: block;
+    max-width: 90%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 2px;
   }
 
-  .facts li {
-    padding-top: 2em;
-    margin-left: 20px;
-    margin-right: 35px;
-  }
+}
 
-  .bold {
-    font-size: 15px;
-  }
 
-    aside p {
-      font-size: 10.5px;
-    }
-  }
