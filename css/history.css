@@ -60,13 +60,14 @@ img {
 
 }
 
-#navbar ul li{
+#navbar ul li {
   flex: 1;
   color: inherit;
 }
 
 #navbar li {
-  margin-left: 0em;
+  margin-left: -2em;
+  margin-right: 4em;
 }
 
 #navbar ul li a:hover,
@@ -128,8 +129,8 @@ aside {
 /* #endregion */
 
 
-@media (max-width: 812px){
-  aside{
+@media (max-width: 812px) {
+  aside {
     margin-top: 2.5rem;
     position: relative;
     width: 100%;
